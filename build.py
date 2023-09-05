@@ -13,9 +13,10 @@ MODS_ROOT = Path(os.environ["userprofile"]) / Path("AppData/LocalLow/sokpop/Stac
 # MODS_ROOT = Path("C:/Users/cyber/AppData/LocalLow/sokpop/Stacklands/Mods").resolve()
 
 MOD_BIN = Path("./bin/Debug/netstandard2.1").resolve()
-
+print("starting..")
 
 def sync_folder(src: Path, dst: Path):
+    print("Syncing...  src:", src, "\tdst:", dst)
     for file in dst.glob("**/*"):
         file_in_src = src / file.relative_to(dst)
         if file.is_dir() and not file_in_src.exists():
@@ -32,6 +33,7 @@ def sync_folder(src: Path, dst: Path):
                 shutil.copytree(file, file_in_dst)
 
 # build
+print("building...")
 start_time = time.time()
 p = subprocess.Popen("dotnet build", stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
 stdout, stderr = p.communicate()

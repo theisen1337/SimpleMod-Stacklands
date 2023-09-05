@@ -1,0 +1,18 @@
+{
+    "id": "TheisenExample_golden_berry",
+    "nameTerm": "TheisenExample_golden_berry_name",
+    "descriptionTerm": "TheisenExample_golden_berry_description",
+    "icon": "berry",
+    "value": 10,
+    "type": "Food",
+    "script": "Food",
+    "_CanSpoil": false,
+    "_FoodValue": 10,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+      "Color": "#FFE299",
+      "Color2": "#F8C74A",
+      "Icon": "#000000"
+    },
+    "_IsShiny": true
+}

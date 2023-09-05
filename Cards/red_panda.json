@@ -1,0 +1,16 @@
+{
+  "id": "TheisenExample_redpanda",
+  "nameTerm": "TheisenExample_redpanda_name",
+  "descriptionTerm": "TheisenExample_redpanda_description",
+  "type": "Mobs",
+  "icon": "RedPanda2.png",
+  "value": -1,
+  "script": "TheisenExampleNS.RedPanda",
+  "_BaseCombatStats": {
+    "MaxHealth": 10,
+    "AttackDamage": 3,
+    "AttackSpeed": 1,
+    "Defence": 1,
+    "HitChance": 0.9
+  }
+}

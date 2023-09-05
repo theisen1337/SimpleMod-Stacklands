@@ -1,0 +1,13 @@
+{
+    "id": "TheisenExample_blueprint_golden_berry",
+    "nameTerm": "TheisenExample_golden_berry_name",
+    "group": "Cooking",
+    "subprints": [
+        {
+          "RequiredCards": "gold_bar, gold_bar, berry",
+          "ResultCard": "TheisenExample_golden_berry",
+          "Time": 5,
+          "StatusTerm": "TheisenExample_idea_golden_berry_status"
+        }
+      ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "TheisenExample_weapon_stand",
+    "nameTerm": "TheisenExample_weapon_stand_name",
+    "descriptionTerm": "TheisenExample_weapon_stand_description",
+    "icon": "spear",
+    "value": 10,
+    "script": "TheisenExampleNS.WeaponStand",
+    "_WeaponCount": 0,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+      "Color": "#FFE299",
+      "Color2": "#F8C74A",
+      "Icon": "#000000"
+    }
+}
